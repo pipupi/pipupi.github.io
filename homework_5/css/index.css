@@ -1,4 +1,4 @@
-/* screen - detail */
+/* screen - index */
 * {box-sizing: border-box;}
 
 .layout {
@@ -83,7 +83,7 @@
 .rectangle-d {
     grid-area: a;
     background: var(--n-blue);  
-    height: var(--h2);
+    height: var(--h);
     width:100%;
 
 }
@@ -106,17 +106,16 @@
 
 
 .rectangle-o {
-    position:relative;
     background: var(--n-red);
     grid-area: b;
-    height: var(--h1);
+    height: var(--h);
     width: 100%;
 }
-.rectangle-p:hover {
+.rectangle-o:hover {
     background: var(--red); 
 
 }
-.rectangle-p:active {
+.rectangle-o:active {
     background: var(--l-red); 
 
 }
@@ -135,7 +134,7 @@
 .rectangle-i {
     background: var(--cream-brulee);
     grid-area: c;
-    height: var(--h2);
+    height: var(--h);
     width: 100%;
 }
 .rectangle-i:hover {
@@ -146,15 +145,6 @@
     background: var(--l-brulee); 
 
 }
-
-.cart{
-    top:1vw;
-    right:1vw;
-    position: absolute;
-    
-    width: 3vw;
-
-}    
 
 
 .T1 {
@@ -176,7 +166,7 @@
     font-size: 1vw;
     left: var(--txta1);
     position: absolute;
-    text-align: left;
+    text-align: center;
     vertical-align: central;
 }
 
@@ -186,7 +176,7 @@
 
 
 .T4 {
-    padding: var(--p1) 0;
+    padding: var(--p3) 0;
     background-color: transparent;
     color: var(--white);
     font-size: 1vw;
@@ -196,108 +186,11 @@
     
 }
 
-.Title {
-    width: auto;
-    background-color: transparent;
-    color: var(--white);
-    font-size: 3vw;
-    left:0;
-    position: absolute;
-    text-align: center;
-}
-.pad1{
-    padding: 3% 0;
-}
-.pad2{
-    padding: 15% 0;
-}
-.pad3{
-    padding: 27% 0;
-}
-.pad4{
-    padding: 39% 0;
-}
-.padb{
-    padding: 80% 0; 
-}
 
 
 
-.square-t{
-    height: 45vw;
-    width: 45vw; 
-    background-color: transparent;
-            
-}
-.square{
-    height: 45vw;
-    width: 45vw; 
-    background-color: white;
-            
-}
 
-.button{
-    height: 5vw;
-    width: 20vw; 
-    background-color: var(--n-red);
-            
-}
-.button:hover{
-    background-color: var(--l-red);
-            
-}
-.button:active{
 
-    background-color: var(--red);
-            
-}
-
-.sqr1{
-    align-self: center;
-    left:2.5%;
-    
-    position: absolute
-
-}
-
-.sqr2{
-   
-    left:27.5%;
-
-    position: absolute
-
-}
-
-.sqr3{
-    
-    left:52.5%;
-   
-    position: absolute
-    
-}
-
-.sqr4{
-    
-    left:77.5%;
-    
-    position: absolute
-}
-.row1{
-    padding: 20% 0;
-}
-
-.btn1{
-    
-    left:0%;
-    top:88.7%;
-    position: absolute
-}
-.btn2{
-    
-    left:52.5%;
-    top:88.7%;
-    position: absolute
-}
 
 
 
@@ -316,8 +209,6 @@
     --iconp: 40px;
     --edge: 5%;
     --h: 400px;
-    --h1:1100px;
-    --h2:100px;
     --p1: 50px;
     --p2: 100px;
     --p3: 350px;
