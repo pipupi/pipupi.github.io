@@ -1,0 +1,149 @@
+/* screen - landing */
+* {box-sizing: border-box;}
+
+.layout {
+  border:0px solid transparent;
+  border-radius: 0px;
+  background-color:var(--white);
+  /*turn into grid layout*/
+  display: grid;
+  grid-auto-rows: 1200px;
+  grid-template-areas:
+      "h h"
+      "a a"
+      "b b"
+      "c c"
+      "d d"
+      "e e"; 
+}
+
+.border-class-1 {
+    border: 0px solid transparent;
+}
+
+.font-class-1 {
+    font-family: 'Roboto', Helvetica, Arial, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header {
+    position: relative;
+    text-align: left;
+    color: white;
+    grid-area: h;
+    width: 100%; /*make the img responsible with the actual screen width*/
+}
+
+.iconspace-sort-3 {
+    background-color: transparent;
+    top: var(--edge);
+    right: var(--edge2);
+    position: fixed;
+    width: var(--iconp);
+}
+
+.bun-bun {
+    top: var(--edge);
+    background-color: transparent;
+    color: var(--cornflower-blue);
+    font-size: 55.0px;
+    height: 100%;
+    position: fixed;
+    text-align: left;
+    width: var(--iconp);
+    left: var(--edge);
+}
+
+.group-discover {
+    background: transparent;
+    text-align: center;
+    grid-area: a;
+    width: 100%; /*make the img responsible with the actual screen width*/
+    height: 40%;
+}
+
+
+
+.group-store{
+    padding: 5% 0;
+    background: transparent;
+    text-align: left;
+    width: 100%; /*make the img responsible with the actual screen width*/
+    
+}
+
+.group-cart{
+    padding: 5% 0;
+    background: transparent;
+    text-align: left;
+    width: 100%; /*make the img responsible with the actual screen width*/
+    
+}
+
+.group-signup{
+    padding: 5% 0;
+    background: transparent;
+    text-align: left;
+    width: 100%; /*make the img responsible with the actual screen width*/
+
+}
+
+.group-event{
+    padding: 5% 0;
+    background: transparent;
+    text-align: left;
+    width: 100%; /*make the img responsible with the actual screen width*/
+
+}
+
+.group-discover{
+    padding: 5% 0;
+    background: transparent;
+    text-align: left;
+    width: 100%; /*make the img responsible with the actual screen width*/
+
+}
+
+.TXT{
+  background-color:transparent;
+  color:var(--black);
+  font-size:3vw; 
+  position:absolute;
+  text-align:left; 
+  left: var(--bar-txt);
+}
+
+.LOGO{
+  position:absolute;
+  width:3vw;
+  left: var(--bar-logo);
+}
+
+:root {
+    --bar-logo:80%;
+    --bar-txt:85%;
+    --black: rgba(0,0,0,1.0);
+    --cornflower-blue: rgba(91,149,234,1.0);
+    --cream-brulee: rgba(255,222,160,1.0);
+    --malibu: rgba(106,189,255,1.0);
+    --mist-gray: rgba(196,196,196,1.0);
+    --white: rgba(255,255,255,1.0);
+    --iconp: 40px;
+    --edge: 5%;
+    --edge2: 25%;
+    --h: 800px;
+    --p1: 375px;
+    --p2: 700px;
+    --P3: 200px;
+    --w1: 90%;
+    --l-blue: rgba(214,237,255,1.0);
+    --n-blue: rgba(151,209,255,1.0);
+    --l-red: rgba(255,215,215,1.0);
+    --n-red: rgba(255,162,162,1.0);
+    --l-brulee: rgba(255,238,205,1.0);
+    --n-brulee: rgba(255,210,125,1.0);
+    --l-purple: rgba(233,205,255,1.0);
+    --n-purple: rgba(212,159,255,1.0);
+    --txta1: 18%;
+}
